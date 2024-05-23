@@ -55,23 +55,6 @@ fn parse_mpd(mpd_content string) {
 				// skip
 			}
 		}
-		// if child.name == 'Period' {
-		// 	println('Found a Period element')
-		// 	// "AdaptationSet" 태그 찾기
-		// 	for adaptation_set in child.children {
-		// 		if adaptation_set.name == 'AdaptationSet' {
-		// 			println('Found an AdaptationSet element')
-		// 			// 각 AdaptationSet에서 "Representation" 정보 추출
-		// 			for representation in adaptation_set.children {
-		// 				if representation.name == 'Representation' {
-		// 					mime_type := representation.attrs['mimeType'] or { 'unknown' }
-		// 					codecs := representation.attrs['codecs'] or { 'unknown' }
-		// 					println('Representation mimeType: $mime_type, codecs: $codecs')
-		// 				}
-		// 			}
-		// 		}
-		// 	}
-		// }
 	}
 }
 
